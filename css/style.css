@@ -1,3 +1,23 @@
-body {
-    background-color: forestgreen;
+:root {
+    --primary-col: #006cfa;
+    --secondary-col: #00e165;
+}
+
+.bg-primary {
+    background-color: var(--primary-col);
+}
+
+.bg-secondary {
+    background-color: var(--secondary-col);
+}
+
+[class*="col-"] {
+    color: white;
+    padding: 0.5rem;
+    text-align: center;
+    border: 1px solid white;
+}
+
+.empty {
+    padding-top: 2rem;
 }
